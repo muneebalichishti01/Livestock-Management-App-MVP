@@ -143,8 +143,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**Built with ❤️ by [Your Team Name]**
+**Built with ❤️ by Muneeb**
 
-[Website](https://your-website.com) · [Documentation](https://docs.your-website.com) · [Report Bug](https://github.com/yourusername/agrevanna/issues)
-
+[GitHub](https://github.com/muneebalichishti01)
 </div>
