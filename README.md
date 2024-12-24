@@ -1,30 +1,150 @@
-# React + TypeScript + Vite
+# 🌾 Agrevanna - Smart Livestock Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
 
-Currently, two official plugins are available:
+![Agrevanna](https://images.unsplash.com/photo-1516367070866-4b5c0c582085?w=800&h=400&fit=crop)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[![React](https://img.shields.io/badge/React-18.2-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.2-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-5.2-646CFF?style=for-the-badge&logo=vite)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
 
-## Expanding the ESLint configuration
+</div>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🚀 Features
 
-- Configure the top-level `parserOptions` property like this:
+### 🎯 Core Functionality
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+- **📊 Real-time Analytics Dashboard**
+  - Live monitoring of livestock health metrics
+  - Production statistics and trends
+  - Feed consumption tracking
+  - Environmental conditions monitoring
+
+- **🔄 Task Management System**
+  - Drag-and-drop task assignment
+  - Priority-based scheduling
+  - Worker allocation optimization
+  - Progress tracking
+
+- **🏥 Health Monitoring**
+  - Real-time health alerts
+  - Disease detection and prevention
+  - Vaccination scheduling
+  - Treatment tracking
+
+- **⛓️ Blockchain Integration**
+  - Secure record-keeping
+  - Transparent supply chain tracking
+  - QR code-based verification
+  - Transaction history
+
+### 🛠️ Technical Features
+
+- **🎨 Modern UI/UX**
+  - Responsive design for all devices
+  - Dark/Light theme support
+  - Intuitive navigation
+  - Accessible components
+
+- **🔒 Security**
+  - Role-based access control
+  - Secure authentication
+  - Data encryption
+  - Activity logging
+
+## 🏗️ Tech Stack
+
+- **Frontend Framework**: React 18 with TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS + ShadcnUI
+- **State Management**: React Hooks
+- **Routing**: React Router
+- **Charts**: Recharts
+- **Icons**: Lucide React
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+```bash
+# Required
+node >= 18.0.0
+npm >= 9.0.0
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/agrevanna.git
+
+# Navigate to project directory
+cd agrevanna
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+## 📱 Screenshots
+
+<div align="center">
+
+### Dashboard Overview
+![Dashboard](https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=300&fit=crop)
+
+### Health Monitoring
+![Health](https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&h=300&fit=crop)
+
+### Task Management
+![Tasks](https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=600&h=300&fit=crop)
+
+</div>
+
+## 🌟 Key Components
+
+```typescript
+// Example Dashboard Component Structure
+src/
+  ├── components/
+  │   ├── dashboard/
+  │   │   ├── AnalyticsGrid.tsx    // Main analytics display
+  │   │   ├── TaskManagementBoard.tsx   // Task management
+  │   │   └── HealthMonitorPanel.tsx    // Health monitoring
+  │   ├── blockchain/
+  │   │   └── BlockchainPage.tsx    // Blockchain integration
+  │   └── ...
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- [ShadcnUI](https://ui.shadcn.com/) for the beautiful UI components
+- [Lucide Icons](https://lucide.dev/) for the icon set
+- [Recharts](https://recharts.org/) for the charting library
+
+---
+
+<div align="center">
+
+**Built with ❤️ by [Your Team Name]**
+
+[Website](https://your-website.com) · [Documentation](https://docs.your-website.com) · [Report Bug](https://github.com/yourusername/agrevanna/issues)
+
+</div>
