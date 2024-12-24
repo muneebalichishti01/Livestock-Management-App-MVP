@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import { useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -45,7 +45,7 @@ const defaultProfile: UserProfile = {
   phone: "+1 (555) 123-4567",
   role: "Farm Administrator",
   location: "Central Valley Farm",
-  farmName: "Agrevanna Livestock Farm",
+  farmName: "Agrivanna Livestock Farm",
   avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=farm-manager",
   joinDate: "2023-01-15",
 };

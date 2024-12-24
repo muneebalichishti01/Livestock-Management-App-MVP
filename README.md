@@ -1,8 +1,8 @@
-# 🌾 Agrevanna - Smart Livestock Management System
+# 🌾 Agrivanna - Smart Livestock Management System
 
 <div align="center">
 
-![Agrevanna](https://images.unsplash.com/photo-1516367070866-4b5c0c582085?w=800&h=400&fit=crop)
+![Agrivanna](https://images.unsplash.com/photo-1516367070866-4b5c0c582085?w=800&h=400&fit=crop)
 
 [![React](https://img.shields.io/badge/React-18.2-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.2-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
@@ -77,10 +77,10 @@ npm >= 9.0.0
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/agrevanna.git
+git clone https://github.com/yourusername/agrivanna.git
 
 # Navigate to project directory
-cd agrevanna
+cd agrivanna
 
 # Install dependencies
 npm install
@@ -143,7 +143,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**Built with ❤️ by Muneeb**
+**Built with ❤️ by [Your Team Name]**
 
-[GitHub](https://github.com/muneebalichishti01)
+[Website](https://your-website.com) · [Documentation](https://docs.your-website.com) · [Report Bug](https://github.com/yourusername/agrivanna/issues)
+
 </div>

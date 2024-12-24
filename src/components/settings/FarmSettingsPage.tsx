@@ -46,7 +46,7 @@ const defaultSettings: FarmSetting[] = [
   {
     id: "farm-name",
     title: "Livestock Farm Name",
-    value: "Agrevanna Livestock Farm",
+    value: "Agrivanna Livestock Farm",
     type: "text",
     category: "general",
     description: "Official name of your livestock farm",
