@@ -1,10 +1,12 @@
 import React from "react";
-import { Home, FileText, Users, Settings } from "lucide-react";
+import { Home, FileText, Users, Settings, Brain } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 interface BottomNavProps {
-  activeTab?: "dashboard" | "reports" | "workers" | "settings";
-  onTabChange?: (tab: "dashboard" | "reports" | "workers" | "settings") => void;
+  activeTab?: "dashboard" | "reports" | "workers" | "settings" | "ai";
+  onTabChange?: (
+    tab: "dashboard" | "reports" | "workers" | "settings" | "ai",
+  ) => void;
 }
 
 const BottomNav = ({
@@ -15,7 +17,8 @@ const BottomNav = ({
     { id: "dashboard", icon: Home, label: "Dashboard" },
     { id: "reports", icon: FileText, label: "Reports" },
     { id: "workers", icon: Users, label: "Workers" },
-    { id: "settings", icon: Settings, label: "Settings" },
+    { id: "ai", icon: Brain, label: "AI Tools" },
+    { id: "settings", icon: Settings, label: "Farm" },
   ];
 
   return (
