@@ -75,10 +75,10 @@ npm >= 9.0.0
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/Livestock-Management-App-UI.git
+git clone https://github.com/yourusername/Livestock-Management-App-MVP.git
 
 # Navigate to project directory
-cd Livestock-Management-App-UI
+cd Livestock-Management-App-MVP
 
 # Install dependencies
 npm install
